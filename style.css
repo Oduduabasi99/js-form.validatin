@@ -32,7 +32,7 @@ body{
     padding-bottom: 20px;
     position: relative;
 }
-.form-control lable{
+.form-control label{
     display: inline-block;
     margin-bottom: 5px;
 }
@@ -68,7 +68,7 @@ body{
 }
 .form-control.success p {
     color: #2ecc71;
-    visibility: visible;
+    visibility: hidden;
 }
 
 .form-control.error p {

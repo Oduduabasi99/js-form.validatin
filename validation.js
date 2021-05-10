@@ -35,12 +35,11 @@ function checkInputs() {
     if (cPasswordValue === "") {
         setErrorFor(cPassword, 'Password cannot be blank');
     } else if (passwordValue !== cPasswordValue) {
-        setErrorFor(cPassword, 'Passwords not match');
+        setErrorFor(cPassword, 'Passwords does not match');
 
     } else {
         setSuccessFor(cPassword, '');
     }
-
 }
 
 function setErrorFor(input, message) {
